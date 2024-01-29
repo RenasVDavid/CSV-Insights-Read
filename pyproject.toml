@@ -1,0 +1,21 @@
+[tool.poetry]
+packages = [{include = "app"}]
+name = "langchain-agents-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Somme Sakounthong <somme@dragondrop.ltd>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+streamlit = "^1.30.0"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.0.3"
+langchain-experimental = "^0.0.49"
+langchain = "^0.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
